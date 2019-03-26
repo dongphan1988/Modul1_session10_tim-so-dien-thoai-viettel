@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+   let arr = ['0986505749','0919955744','0311111111'];
+    function String(arr) {
+        for(let i = 0;i<arr.length;i++){
+            // if((arr[i][0]+arr[i][1]+arr[i][2]) == "098" || arr[i][0]+arr[i][1] =="03" ){
+            if((arr[i].slice(0,3)) == "098" || arr[i].slice(0,2) =="03" ){
+                console.log("số điện thoại viettel trong mảng là "+arr[i])
+            }
+        }
+    }
+    let a = String(arr);
+</script>
+</body>
+</html>
